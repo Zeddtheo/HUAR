@@ -1,0 +1,3 @@
+C:/MISC/projects/HUAR/build/CMakeFiles/HUAR.dir
+C:/MISC/projects/HUAR/build/CMakeFiles/edit_cache.dir
+C:/MISC/projects/HUAR/build/CMakeFiles/rebuild_cache.dir

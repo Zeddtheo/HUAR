@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/MISC/projects/HUAR/build",
+  "command": "C:\\MISC\\tools\\VISUAL~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -IC:\\MISC\\projects\\HUAR\\src -external:IC:\\MISC\\projects\\HUAR\\build\\vcpkg_installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 /FoCMakeFiles\\HUAR.dir\\src\\test.cpp.obj /FdCMakeFiles\\HUAR.dir\\ /FS -c C:\\MISC\\projects\\HUAR\\src\\test.cpp",
+  "file": "C:\\MISC\\projects\\HUAR\\src\\test.cpp",
+  "output": "CMakeFiles\\HUAR.dir\\src\\test.cpp.obj"
+}
+]

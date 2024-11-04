@@ -1,0 +1,24 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a4ee954a0918b8d7fb42c8f1ea28b71d2b22ab493f30feb90b364f75bf58c0a6
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-18
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a41f1fb532f9a7a5c19977ee67b331f24fc95c6d1ea8d5d6c49fad31d5297b7c
+Status: install ok installed
+
+Package: fmt
+Version: 10.2.1
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8e3b57d11007d8a4036728c13e896625189c5bb382b164249d82406431f1bea3
+Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: install ok installed
+

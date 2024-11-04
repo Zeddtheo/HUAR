@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_TOOLCHAIN_FILE "C:/MISC/tools/Visual Studio/VC/vcpkg/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
+project(HUAR)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED On)
+
+
+add_executable(${PROJECT_NAME}
+    src/test.cpp
+)
+
+find_package(fmt CONFIG REQUIRED)
+
+target_include_directories(${PROJECT_NAME} PRIVATE
+    ${PROJECT_SOURCE_DIR}/src
+)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt)
