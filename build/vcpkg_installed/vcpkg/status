@@ -2,14 +2,14 @@ Package: vcpkg-cmake-config
 Version: 2024-05-23
 Architecture: x64-windows
 Multi-Arch: same
-Abi: a4ee954a0918b8d7fb42c8f1ea28b71d2b22ab493f30feb90b364f75bf58c0a6
+Abi: 6aae62bb3991c755fdbba34face39e79faf6cfb9b1771c28b45b914c771c70c1
 Status: install ok installed
 
 Package: vcpkg-cmake
 Version: 2024-04-18
 Architecture: x64-windows
 Multi-Arch: same
-Abi: a41f1fb532f9a7a5c19977ee67b331f24fc95c6d1ea8d5d6c49fad31d5297b7c
+Abi: 2a0b3589c306ecd6ce69289be4d33d28caba09de086f9db54b655e428a367e26
 Status: install ok installed
 
 Package: fmt
@@ -18,7 +18,54 @@ Port-Version: 2
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 8e3b57d11007d8a4036728c13e896625189c5bb382b164249d82406431f1bea3
+Abi: eed97eef3b7704c92c2ec8b0a8f04c005c99db27e879fafbdada19515257c389
 Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: install ok installed
+
+Package: glm
+Version: 1.0.1
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d80b2935ef7ddd59931843331544e4e6c34e262fdf390509ea2ddc935aed010a
+Description: OpenGL Mathematics (GLM)
+Status: install ok installed
+
+Package: glfw3
+Version: 3.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c97553cf0c2d65f981a5fa864dc20b4b4d4163657238c508cc3be50168a5bdde
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: vulkan-headers
+Version: 1.3.280.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: eacc3eafd61145d1913f1b0abb00ea6439ef447edcbbca5fea8687b260a71a13
+Description: Vulkan header files and API registry
+Status: install ok installed
+
+Package: vulkan-loader
+Version: 1.3.280.0
+Depends: vcpkg-cmake, vcpkg-cmake-config, vulkan-headers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4ebec982ce808d119fd7a7257325eeb07358aedcd2adc387896c0fbed7e1bc0a
+Description: Vulkan Development Tools
+Status: install ok installed
+
+Package: vulkan
+Version: 2023-12-17
+Depends: vcpkg-cmake, vulkan-headers, vulkan-loader
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d7e48902926dfa328ba5981c9d77a30ce2873c4c37abd5207b5120be7d00acd0
+Description: A stub package that ensures that Vulkan headers and a loader are available.
+    On Android, the NDK provides a loader at API level 24 or higher.
 Status: install ok installed
 

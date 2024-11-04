@@ -1,0 +1,10 @@
+^C:\MISC\PROJECTS\HUAR\CMAKELISTS.TXT
+setlocal
+C:\MISC\library\bin\cmake.exe -SC:/MISC/projects/HUAR -BC:/MISC/projects/HUAR/build --check-stamp-file C:/MISC/projects/HUAR/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

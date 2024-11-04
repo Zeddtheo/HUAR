@@ -1,5 +1,10 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "${env:VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64.windows"
+    },
 }

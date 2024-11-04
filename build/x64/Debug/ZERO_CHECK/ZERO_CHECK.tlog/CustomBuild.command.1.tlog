@@ -1,0 +1,10 @@
+^C:\MISC\PROJECTS\HUAR\BUILD\CMAKEFILES\9AFCA8CEC4444E1B09388C5B636A90FC\GENERATE.STAMP.RULE
+setlocal
+C:\MISC\library\bin\cmake.exe -SC:/MISC/projects/HUAR -BC:/MISC/projects/HUAR/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/MISC/projects/HUAR/build/HUAR.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
