@@ -4,7 +4,7 @@
 #include <iostream>
 
 int main(){
-    HUAR::App app;
+    HUAR::JinApp app;
 
     try
     {

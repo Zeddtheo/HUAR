@@ -1,4 +1,4 @@
-"C:\MISC\engine\Bin\glslc.exe" "shaders\simple_shader.vert" -o "shaders\shader.vert.spv" 
-"C:\MISC\engine\Bin\glslc.exe" "shaders\simple_shader.frag" -o "shaders\shader.frag.spv" 
+"C:\MISC\engine\Bin\glslc.exe" "shaders\simple_shader.vert" -o "shaders\simple_shader.vert.spv" 
+"C:\MISC\engine\Bin\glslc.exe" "shaders\simple_shader.frag" -o "shaders\simple_shader.frag.spv" 
 
 pause

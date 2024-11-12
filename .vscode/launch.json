@@ -5,10 +5,10 @@
             "name": "Debug HUAR",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Debug/HUAR.exe",
+            "program": "${command:cmake.launchTargetPath}",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/build/Debug",
             "environment": [],
             "console": "internalConsole"
         }

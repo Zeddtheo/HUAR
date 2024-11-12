@@ -52,7 +52,18 @@
         "xtr1common": "cpp",
         "xutility": "cpp",
         "fstream": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "array": "cpp",
+        "list": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "expected": "cpp",
+        "map": "cpp",
+        "span": "cpp",
+        "sstream": "cpp",
+        "filesystem": "cpp"
     },
     
     "cmake.configureSettings": {

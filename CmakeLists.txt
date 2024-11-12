@@ -11,6 +11,8 @@ set(SOURCES
     src/jWindow.cpp
     src/jPipeline.cpp
     src/jApp.cpp
+    src/jDevice.cpp
+    src/jSwapchain.cpp
     src/main.cpp
 )
 

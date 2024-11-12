@@ -248,10 +248,10 @@ VCPKG_TRACE_FIND_PACKAGE:BOOL=OFF
 VCPKG_VERBOSE:BOOL=OFF
 
 //Path to a program.
-Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=C:/MISC/engine/Bin/glslangValidator.exe
+Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND
 
 //Path to a program.
-Vulkan_GLSLC_EXECUTABLE:FILEPATH=C:/MISC/engine/Bin/glslc.exe
+Vulkan_GLSLC_EXECUTABLE:FILEPATH=Vulkan_GLSLC_EXECUTABLE-NOTFOUND
 
 //Path to a file.
 Vulkan_INCLUDE_DIR:PATH=C:/MISC/projects/HUAR/build/vcpkg_installed/x64-windows/include
@@ -428,7 +428,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding Vulkan
-FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[C:/MISC/projects/HUAR/build/vcpkg_installed/x64-windows/debug/lib/vulkan-1.lib][C:/MISC/projects/HUAR/build/vcpkg_installed/x64-windows/include][cfound components: glslc glslangValidator ][v1.3.280()]
+FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[C:/MISC/projects/HUAR/build/vcpkg_installed/x64-windows/debug/lib/vulkan-1.lib][C:/MISC/projects/HUAR/build/vcpkg_installed/x64-windows/include][c missing components: glslc glslangValidator][v1.3.280()]
 //ADVANCED property for variable: VCPKG_VERBOSE
 VCPKG_VERBOSE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
