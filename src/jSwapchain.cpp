@@ -1,6 +1,4 @@
 #include "jSwapchain.h"
-
-// std
 #include <array>
 #include <cstdlib>
 #include <cstring>
@@ -13,6 +11,18 @@ namespace HUAR{
 
 JinSwapchain::JinSwapchain(JinDevice &deviceRef, VkExtent2D extent)
     : device{deviceRef}, windowExtent{extent} {
+  init();
+}
+
+JinSwapchain::JinSwapchain(JinDevice &deviceRef, 
+                            VkExtent2D extent, 
+                            std::shared_ptr<JinSwapchain> previous)
+    : device{deviceRef}, windowExtent{extent}, oldSwapchain{previous} {
+  init();
+  oldSwapchain = nullptr;
+}
+
+void JinSwapchain::init() {
   createSwapChain();
   createImageViews();
   createRenderPass();
@@ -162,7 +172,7 @@ void JinSwapchain::createSwapChain() {
   createInfo.presentMode = presentMode;
   createInfo.clipped = VK_TRUE;
 
-  createInfo.oldSwapchain = VK_NULL_HANDLE;
+  createInfo.oldSwapchain = oldSwapchain == nullptr ? VK_NULL_HANDLE : oldSwapchain->swapChain;
 
   if (vkCreateSwapchainKHR(device.device(), &createInfo, nullptr, &swapChain) != VK_SUCCESS) {
     throw std::runtime_error("failed to create swap chain!");
@@ -362,7 +372,7 @@ void JinSwapchain::createSyncObjects() {
 VkSurfaceFormatKHR JinSwapchain::chooseSwapSurfaceFormat(
     const std::vector<VkSurfaceFormatKHR> &availableFormats) {
   for (const auto &availableFormat : availableFormats) {
-    if (availableFormat.format == VK_FORMAT_B8G8R8A8_UNORM &&
+    if (availableFormat.format == VK_FORMAT_B8G8R8A8_SRGB  &&
         availableFormat.colorSpace == VK_COLOR_SPACE_SRGB_NONLINEAR_KHR) {
       return availableFormat;
     }

@@ -394,6 +394,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\MISC\projects\HUAR\src\jApp.cpp" />
     <ClCompile Include="C:\MISC\projects\HUAR\src\jDevice.cpp" />
     <ClCompile Include="C:\MISC\projects\HUAR\src\jSwapchain.cpp" />
+    <ClCompile Include="C:\MISC\projects\HUAR\src\jModel.cpp" />
     <ClCompile Include="C:\MISC\projects\HUAR\src\main.cpp" />
   </ItemGroup>
   <ItemGroup />

@@ -63,7 +63,11 @@
         "map": "cpp",
         "span": "cpp",
         "sstream": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "chrono": "cpp",
+        "forward_list": "cpp",
+        "iomanip": "cpp",
+        "ratio": "cpp"
     },
     
     "cmake.configureSettings": {

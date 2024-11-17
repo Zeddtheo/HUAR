@@ -2,7 +2,7 @@ Detecting compiler hash for triplet x64-windows...
 -- Automatically setting %HTTP(S)_PROXY% environment variables to "127.0.0.1:7890".
 Compiler found: C:/MISC/tools/Visual Studio/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe
 All requested packages are currently installed.
-Total install time: 300 ns
+Total install time: 100 ns
 The package fmt provides CMake targets:
 
     find_package(fmt CONFIG REQUIRED)

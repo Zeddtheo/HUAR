@@ -33,7 +33,7 @@ class JinDevice {
 
   // Not copyable or movable
   JinDevice(const JinDevice &) = delete;
-  void operator=(const JinDevice &) = delete;
+  JinDevice &operator=(const JinDevice &) = delete;
   JinDevice(JinDevice &&) = delete;
   JinDevice &operator=(JinDevice &&) = delete;
 

@@ -4,6 +4,7 @@
 #include "jPipeline.h"
 #include "jSwapchain.h"
 #include "jDevice.h"
+#include "jModel.h"
 #include <memory>
 #include <vector>
 
@@ -23,16 +24,21 @@ namespace HUAR
 
         void Run();
     private:
+        void loadModels();
         void createPipelineLayout();
         void createPipeline();
         void createCommandBuffers();
+        void freeCommandBuffers();
         void drawFrames();
+        void recreateSwapchain();
+        void recordCommandBuffer(int imageIndex);
 
         JinWindow window{WIDTH, HEIGHT, "Vulkan"};
         JinDevice device{window};
-        JinSwapchain swapchain{device, window.getExtent()};
+        std::unique_ptr<JinSwapchain> swapchain;
         std::unique_ptr<JinPipeline> pipeline;
         VkPipelineLayout pipelineLayout;
         std::vector<VkCommandBuffer> commandBuffers;
+        std::unique_ptr<JinModel> model;
     };
 }
