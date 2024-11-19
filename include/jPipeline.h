@@ -41,7 +41,7 @@ namespace HUAR
         void bind(VkCommandBuffer commandBuffer);
         static void defaultPipelineConfigInfo(PipelineConfigInfo& configInfo);
     private:
-        JinDevice &device;
+        JinDevice &pipelineDevice;
         VkPipeline graphicsPipeline;
         VkShaderModule vertexShaderModule;
         VkShaderModule fragmentShaderModule;

@@ -19,6 +19,12 @@
     <ClCompile Include="C:\MISC\projects\HUAR\src\jModel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\MISC\projects\HUAR\src\jRenderSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MISC\projects\HUAR\src\jRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\MISC\projects\HUAR\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

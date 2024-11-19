@@ -10,16 +10,16 @@ namespace HUAR
     JinPipeline::JinPipeline(JinDevice &device,
         const std::string &vertexShaderFile, 
         const std::string &fragmentShaderFile,
-        const PipelineConfigInfo &configInfo): device{device}
+        const PipelineConfigInfo &configInfo): pipelineDevice{device}
     {
        createGraphicsPipeline(vertexShaderFile, fragmentShaderFile, configInfo);
     }
 
     JinPipeline::~JinPipeline()
     {
-        vkDestroyShaderModule(device.device(), vertexShaderModule, nullptr);
-        vkDestroyShaderModule(device.device(), fragmentShaderModule, nullptr);
-        vkDestroyPipeline(device.device(), graphicsPipeline, nullptr);
+        vkDestroyShaderModule(pipelineDevice.device(), vertexShaderModule, nullptr);
+        vkDestroyShaderModule(pipelineDevice.device(), fragmentShaderModule, nullptr);
+        vkDestroyPipeline(pipelineDevice.device(), graphicsPipeline, nullptr);
     }
 
     std::vector<char> JinPipeline::readFile(const std::string &filepath)
@@ -37,7 +37,7 @@ namespace HUAR
         file.seekg(0);
         file.read(buffer.data(), fileSize);
 
-        file.close();
+        file.close(); 
 
         return buffer;
     }
@@ -59,7 +59,6 @@ namespace HUAR
         shaderStages[0].pNext = nullptr;
         shaderStages[0].pSpecializationInfo = nullptr;
 
-        VkPipelineShaderStageCreateInfo fragmentShaderStageInfo = {};
         shaderStages[1].sType = VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO;
         shaderStages[1].stage = VK_SHADER_STAGE_FRAGMENT_BIT;
         shaderStages[1].module = fragmentShaderModule;
@@ -99,7 +98,7 @@ namespace HUAR
         pipelineInfo.basePipelineHandle = VK_NULL_HANDLE;
         
 
-        if(vkCreateGraphicsPipelines(device.device(), 
+        if(vkCreateGraphicsPipelines(pipelineDevice.device(), 
                                     VK_NULL_HANDLE, 
                                     1, 
                                     &pipelineInfo, 
@@ -120,7 +119,7 @@ namespace HUAR
         createInfo.codeSize = code.size();
         createInfo.pCode = reinterpret_cast<const uint32_t*>(code.data());
 
-        if (vkCreateShaderModule(device.device(), &createInfo, nullptr, shaderModule) != VK_SUCCESS)
+        if (vkCreateShaderModule(pipelineDevice.device(), &createInfo, nullptr, shaderModule) != VK_SUCCESS)
         {
             throw std::runtime_error("Failed to create shader module!");
         }

@@ -7,7 +7,7 @@ namespace HUAR{
     }
 
     JinWindow::~JinWindow(){
-        glfwDestroyWindow(window);
+        glfwDestroyWindow(glfwWindow);
         glfwTerminate();
     }
 
@@ -16,13 +16,13 @@ namespace HUAR{
         glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
         glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
 
-        window = glfwCreateWindow(width, height, title.c_str(), nullptr, nullptr);
-        glfwSetWindowUserPointer(window, this);
-        glfwSetFramebufferSizeCallback(window, framebufferResizeCallback);
+        glfwWindow = glfwCreateWindow(width, height, title.c_str(), nullptr, nullptr);
+        glfwSetWindowUserPointer(glfwWindow, this);
+        glfwSetFramebufferSizeCallback(glfwWindow, framebufferResizeCallback);
     }
 
     void JinWindow::createWindowSurface(VkInstance instance, VkSurfaceKHR *surface){
-        if(glfwCreateWindowSurface(instance, window, nullptr, surface) != VK_SUCCESS){
+        if(glfwCreateWindowSurface(instance, glfwWindow, nullptr, surface) != VK_SUCCESS){
             throw std::runtime_error("Failed to create window surface!");
         }
     }

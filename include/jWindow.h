@@ -13,7 +13,7 @@ namespace HUAR{
         JinWindow &operator=(const JinWindow &) = delete;
 
         inline bool ShouldClose(){
-            return glfwWindowShouldClose(window);
+            return glfwWindowShouldClose(glfwWindow);
         }
 
         VkExtent2D getExtent(){
@@ -36,7 +36,7 @@ namespace HUAR{
         bool framebufferResized = false;
         
         std::string title;
-        GLFWwindow* window;
+        GLFWwindow* glfwWindow;
 
         void InitWindow();
     };

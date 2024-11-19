@@ -14,6 +14,8 @@ set(SOURCES
     src/jDevice.cpp
     src/jSwapchain.cpp
     src/jModel.cpp
+    src/jRenderSystem.cpp
+    src/jRenderer.cpp
     src/main.cpp
 )
 # Set the path to the shaders
