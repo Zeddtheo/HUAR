@@ -24,7 +24,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-      鐢熸垚鍚姩鏃堕棿涓?2024/11/18 15:46:36銆?
+      鐢熸垚鍚姩鏃堕棿涓?2024/11/20 14:37:14銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\3.31.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -64,7 +64,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:00.61
+      宸茬敤鏃堕棿 00:00:00.76
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -90,7 +90,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-      鐢熸垚鍚姩鏃堕棿涓?2024/11/18 15:46:36銆?
+      鐢熸垚鍚姩鏃堕棿涓?2024/11/20 14:37:15銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\3.31.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -130,7 +130,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:00.59
+      宸茬敤鏃堕棿 00:00:00.62
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -149,8 +149,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-mdq8b1"
-      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-mdq8b1"
+      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-gzrhcb"
+      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-gzrhcb"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -163,40 +163,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-mdq8b1'
+        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-gzrhcb'
         
-        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9c3aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ad41f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2024/11/18 15:46:37銆?
+        鐢熸垚鍚姩鏃堕棿涓?2024/11/20 14:37:16銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdq8b1\\cmTC_9c3aa.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzrhcb\\cmTC_ad41f.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9c3aa.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ad41f.dir\\Debug\\鈥濄€?
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdq8b1\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9c3aa.dir\\Debug\\cmTC_9c3aa.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzrhcb\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ad41f.dir\\Debug\\cmTC_ad41f.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_9c3aa.dir\\Debug\\cmTC_9c3aa.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_9c3aa.dir\\Debug\\cmTC_9c3aa.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_ad41f.dir\\Debug\\cmTC_ad41f.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ad41f.dir\\Debug\\cmTC_ad41f.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c3aa.dir\\Debug\\\\" /Fd"cmTC_9c3aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\library\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad41f.dir\\Debug\\\\" /Fd"cmTC_ad41f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\library\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c3aa.dir\\Debug\\\\" /Fd"cmTC_9c3aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\library\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad41f.dir\\Debug\\\\" /Fd"cmTC_ad41f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\library\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdq8b1\\Debug\\cmTC_9c3aa.exe" /INCREMENTAL /ILK:"cmTC_9c3aa.dir\\Debug\\cmTC_9c3aa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-mdq8b1/Debug/cmTC_9c3aa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-mdq8b1/Debug/cmTC_9c3aa.lib" /MACHINE:X64  /machine:x64 cmTC_9c3aa.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_9c3aa.vcxproj -> C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdq8b1\\Debug\\cmTC_9c3aa.exe
+          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzrhcb\\Debug\\cmTC_ad41f.exe" /INCREMENTAL /ILK:"cmTC_ad41f.dir\\Debug\\cmTC_ad41f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-gzrhcb/Debug/cmTC_ad41f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-gzrhcb/Debug/cmTC_ad41f.lib" /MACHINE:X64  /machine:x64 cmTC_ad41f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ad41f.vcxproj -> C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzrhcb\\Debug\\cmTC_ad41f.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_9c3aa.dir\\Debug\\cmTC_9c3aa.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_9c3aa.dir\\Debug\\cmTC_9c3aa.tlog\\cmTC_9c3aa.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mdq8b1\\cmTC_9c3aa.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_ad41f.dir\\Debug\\cmTC_ad41f.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ad41f.dir\\Debug\\cmTC_ad41f.tlog\\cmTC_ad41f.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzrhcb\\cmTC_ad41f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.44
+        宸茬敤鏃堕棿 00:00:00.42
         
       exitCode: 0
   -
@@ -236,8 +236,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-ykce1u"
-      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-ykce1u"
+      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-d82ltj"
+      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-d82ltj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -251,40 +251,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-ykce1u'
+        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-d82ltj'
         
-        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5a533.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_87faf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2024/11/18 15:46:38銆?
+        鐢熸垚鍚姩鏃堕棿涓?2024/11/20 14:37:16銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykce1u\\cmTC_5a533.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d82ltj\\cmTC_87faf.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5a533.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_87faf.dir\\Debug\\鈥濄€?
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykce1u\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5a533.dir\\Debug\\cmTC_5a533.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d82ltj\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_87faf.dir\\Debug\\cmTC_87faf.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_5a533.dir\\Debug\\cmTC_5a533.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_5a533.dir\\Debug\\cmTC_5a533.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_87faf.dir\\Debug\\cmTC_87faf.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_87faf.dir\\Debug\\cmTC_87faf.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5a533.dir\\Debug\\\\" /Fd"cmTC_5a533.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MISC\\library\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_87faf.dir\\Debug\\\\" /Fd"cmTC_87faf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MISC\\library\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5a533.dir\\Debug\\\\" /Fd"cmTC_5a533.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MISC\\library\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_87faf.dir\\Debug\\\\" /Fd"cmTC_87faf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MISC\\library\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykce1u\\Debug\\cmTC_5a533.exe" /INCREMENTAL /ILK:"cmTC_5a533.dir\\Debug\\cmTC_5a533.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-ykce1u/Debug/cmTC_5a533.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-ykce1u/Debug/cmTC_5a533.lib" /MACHINE:X64  /machine:x64 cmTC_5a533.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_5a533.vcxproj -> C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykce1u\\Debug\\cmTC_5a533.exe
+          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d82ltj\\Debug\\cmTC_87faf.exe" /INCREMENTAL /ILK:"cmTC_87faf.dir\\Debug\\cmTC_87faf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-d82ltj/Debug/cmTC_87faf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-d82ltj/Debug/cmTC_87faf.lib" /MACHINE:X64  /machine:x64 cmTC_87faf.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_87faf.vcxproj -> C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d82ltj\\Debug\\cmTC_87faf.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_5a533.dir\\Debug\\cmTC_5a533.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_5a533.dir\\Debug\\cmTC_5a533.tlog\\cmTC_5a533.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykce1u\\cmTC_5a533.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_87faf.dir\\Debug\\cmTC_87faf.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_87faf.dir\\Debug\\cmTC_87faf.tlog\\cmTC_87faf.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d82ltj\\cmTC_87faf.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.43
+        宸茬敤鏃堕棿 00:00:00.40
         
       exitCode: 0
   -
@@ -330,8 +330,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-f7r388"
-      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-f7r388"
+      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-9pjeff"
+      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-9pjeff"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -344,40 +344,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-f7r388'
+        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-9pjeff'
         
-        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_83320.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fceeb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2024/11/18 15:46:38銆?
+        鐢熸垚鍚姩鏃堕棿涓?2024/11/20 14:37:17銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\cmTC_83320.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\cmTC_fceeb.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_83320.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_fceeb.dir\\Debug\\鈥濄€?
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_83320.dir\\Debug\\cmTC_83320.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_fceeb.dir\\Debug\\cmTC_fceeb.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_83320.dir\\Debug\\cmTC_83320.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_83320.dir\\Debug\\cmTC_83320.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_fceeb.dir\\Debug\\cmTC_fceeb.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_fceeb.dir\\Debug\\cmTC_fceeb.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83320.dir\\Debug\\\\" /Fd"cmTC_83320.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\src.c"
+          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fceeb.dir\\Debug\\\\" /Fd"cmTC_fceeb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83320.dir\\Debug\\\\" /Fd"cmTC_83320.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fceeb.dir\\Debug\\\\" /Fd"cmTC_fceeb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\src.c"
           src.c
-        C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\cmTC_83320.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\cmTC_83320.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\cmTC_fceeb.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\cmTC_fceeb.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
         
         鐢熸垚澶辫触銆?
         
-        鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\cmTC_83320.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\cmTC_fceeb.vcxproj鈥?榛樿鐩爣) (1) ->
         (ClCompile 鐩爣) -> 
-          C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f7r388\\cmTC_83320.vcxproj]
+          C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pjeff\\cmTC_fceeb.vcxproj]
         
             0 涓鍛?
             1 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.23
+        宸茬敤鏃堕棿 00:00:00.21
         
       exitCode: 1
   -
@@ -394,8 +394,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-j2syhf"
-      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-j2syhf"
+      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-9rlw6x"
+      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-9rlw6x"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -408,42 +408,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-j2syhf'
+        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-9rlw6x'
         
-        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_92abe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_120bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2024/11/18 15:46:39銆?
+        鐢熸垚鍚姩鏃堕棿涓?2024/11/20 14:37:17銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2syhf\\cmTC_92abe.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlw6x\\cmTC_120bb.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_92abe.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_120bb.dir\\Debug\\鈥濄€?
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2syhf\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_92abe.dir\\Debug\\cmTC_92abe.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlw6x\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_120bb.dir\\Debug\\cmTC_120bb.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_92abe.dir\\Debug\\cmTC_92abe.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_92abe.dir\\Debug\\cmTC_92abe.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_120bb.dir\\Debug\\cmTC_120bb.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_120bb.dir\\Debug\\cmTC_120bb.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92abe.dir\\Debug\\\\" /Fd"cmTC_92abe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2syhf\\CheckFunctionExists.c"
+          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_120bb.dir\\Debug\\\\" /Fd"cmTC_120bb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlw6x\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92abe.dir\\Debug\\\\" /Fd"cmTC_92abe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2syhf\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_120bb.dir\\Debug\\\\" /Fd"cmTC_120bb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlw6x\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2syhf\\Debug\\cmTC_92abe.exe" /INCREMENTAL /ILK:"cmTC_92abe.dir\\Debug\\cmTC_92abe.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-j2syhf/Debug/cmTC_92abe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-j2syhf/Debug/cmTC_92abe.lib" /MACHINE:X64  /machine:x64 cmTC_92abe.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2syhf\\cmTC_92abe.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2syhf\\cmTC_92abe.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlw6x\\Debug\\cmTC_120bb.exe" /INCREMENTAL /ILK:"cmTC_120bb.dir\\Debug\\cmTC_120bb.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-9rlw6x/Debug/cmTC_120bb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-9rlw6x/Debug/cmTC_120bb.lib" /MACHINE:X64  /machine:x64 cmTC_120bb.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlw6x\\cmTC_120bb.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlw6x\\cmTC_120bb.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
         
         鐢熸垚澶辫触銆?
         
-        鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2syhf\\cmTC_92abe.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlw6x\\cmTC_120bb.vcxproj鈥?榛樿鐩爣) (1) ->
         (Link 鐩爣) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2syhf\\cmTC_92abe.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlw6x\\cmTC_120bb.vcxproj]
         
             0 涓鍛?
             1 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.30
+        宸茬敤鏃堕棿 00:00:00.29
         
       exitCode: 1
   -
@@ -460,8 +460,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-1rjz5r"
-      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-1rjz5r"
+      source: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-qhztjh"
+      binary: "C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-qhztjh"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -474,42 +474,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-1rjz5r'
+        Change Dir: 'C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-qhztjh'
         
-        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_18c41.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/MISC/tools/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5935c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2024/11/18 15:46:39銆?
+        鐢熸垚鍚姩鏃堕棿涓?2024/11/20 14:37:18銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1rjz5r\\cmTC_18c41.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qhztjh\\cmTC_5935c.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_18c41.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5935c.dir\\Debug\\鈥濄€?
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1rjz5r\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_18c41.dir\\Debug\\cmTC_18c41.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qhztjh\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5935c.dir\\Debug\\cmTC_5935c.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_18c41.dir\\Debug\\cmTC_18c41.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_18c41.dir\\Debug\\cmTC_18c41.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_5935c.dir\\Debug\\cmTC_5935c.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5935c.dir\\Debug\\cmTC_5935c.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18c41.dir\\Debug\\\\" /Fd"cmTC_18c41.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1rjz5r\\CheckFunctionExists.c"
+          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5935c.dir\\Debug\\\\" /Fd"cmTC_5935c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qhztjh\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18c41.dir\\Debug\\\\" /Fd"cmTC_18c41.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1rjz5r\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5935c.dir\\Debug\\\\" /Fd"cmTC_5935c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qhztjh\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1rjz5r\\Debug\\cmTC_18c41.exe" /INCREMENTAL /ILK:"cmTC_18c41.dir\\Debug\\cmTC_18c41.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-1rjz5r/Debug/cmTC_18c41.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-1rjz5r/Debug/cmTC_18c41.lib" /MACHINE:X64  /machine:x64 cmTC_18c41.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1rjz5r\\cmTC_18c41.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1rjz5r\\cmTC_18c41.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+          C:\\MISC\\tools\\Visual Studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qhztjh\\Debug\\cmTC_5935c.exe" /INCREMENTAL /ILK:"cmTC_5935c.dir\\Debug\\cmTC_5935c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-qhztjh/Debug/cmTC_5935c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/MISC/projects/HUAR/build/CMakeFiles/CMakeScratch/TryCompile-qhztjh/Debug/cmTC_5935c.lib" /MACHINE:X64  /machine:x64 cmTC_5935c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qhztjh\\cmTC_5935c.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qhztjh\\cmTC_5935c.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
         
         鐢熸垚澶辫触銆?
         
-        鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1rjz5r\\cmTC_18c41.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淐:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qhztjh\\cmTC_5935c.vcxproj鈥?榛樿鐩爣) (1) ->
         (Link 鐩爣) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1rjz5r\\cmTC_18c41.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\MISC\\projects\\HUAR\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qhztjh\\cmTC_5935c.vcxproj]
         
             0 涓鍛?
             1 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.30
+        宸茬敤鏃堕棿 00:00:00.29
         
       exitCode: 1
 ...

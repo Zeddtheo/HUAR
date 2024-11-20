@@ -53,28 +53,34 @@ void JinRenderSystem::createPipeline(VkRenderPass renderPass){
     pipelineConfig.renderPass = renderPass;
     pipelineConfig.pipelineLayout = pipelineLayout;
     pipeline = std::make_unique<JinPipeline>(device, 
-                                            "C:/MISC/projects/HUAR/shaders/simple_shader.vert.spv", 
-                                            "C:/MISC/projects/HUAR/shaders/simple_shader.frag.spv", 
+                                            "../../shaders/simple_shader.vert.spv", 
+                                            "../../shaders/simple_shader.frag.spv", 
                                             pipelineConfig);
 }
 
 void JinRenderSystem::renderGameObjects(VkCommandBuffer commandBuffer, std::vector<JinGameObject> &gameObjects){
+    int i = 0;
+    for (auto& obj : gameObjects) {
+        i += 1;
+        obj.transform2d.rotation =
+            glm::mod<float>(obj.transform2d.rotation + 0.001f * i, 2.f * glm::pi<float>());
+    }
+    
+    // render
     pipeline->bind(commandBuffer);
-
-    for(auto &obj : gameObjects){
-        obj.transform2d.rotation = glm::mod(obj.transform2d.rotation + 0.01f, glm::two_pi<float>());
+    for (auto& obj : gameObjects) {
         SimplePushConstantData push{};
-        push.transform = obj.transform2d.mat2();
         push.offset = obj.transform2d.translation;
         push.color = obj.color;
-
-        vkCmdPushConstants(commandBuffer, 
-                        pipelineLayout, 
-                        VK_SHADER_STAGE_VERTEX_BIT|VK_SHADER_STAGE_FRAGMENT_BIT, 
-                        0, 
-                        sizeof(SimplePushConstantData), 
-                        &push);
-
+        push.transform = obj.transform2d.mat2();
+    
+        vkCmdPushConstants(
+            commandBuffer,
+            pipelineLayout,
+            VK_SHADER_STAGE_VERTEX_BIT | VK_SHADER_STAGE_FRAGMENT_BIT,
+            0,
+            sizeof(SimplePushConstantData),
+            &push);
         obj.model->bind(commandBuffer);
         obj.model->draw(commandBuffer);
     }
