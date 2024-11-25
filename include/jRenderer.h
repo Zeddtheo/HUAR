@@ -20,6 +20,7 @@ public:
     VkRenderPass getSwapChainRenderPass() const { return rSwapchain->getRenderPass(); }
     bool isFrameInProgress() const { return isFrameStarted; }
 
+    float getAspectRatio() const { return rSwapchain->extentAspectRatio(); }
     VkCommandBuffer getCurrentCommandBuffer() const {
         assert(isFrameStarted && "Cannot get command buffer when frame not in progress.");
         return rCommandBuffers[currentFrameIndex];

@@ -24,7 +24,6 @@ namespace HUAR
         void Run();
     private:
         void loadGameObjects();
-
         JinWindow window{WIDTH, HEIGHT, "Vulkan"};
         JinDevice device{window};
         JinRenderer renderer{window, device};

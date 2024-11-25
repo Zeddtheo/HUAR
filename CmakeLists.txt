@@ -16,6 +16,8 @@ set(SOURCES
     src/jModel.cpp
     src/jRenderSystem.cpp
     src/jRenderer.cpp
+    src/jCamera.cpp
+    src/jInput.cpp
     src/main.cpp
 )
 # Set the path to the shaders

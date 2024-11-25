@@ -27,7 +27,7 @@ namespace HUAR{
         void resetWindowResizedFlag(){
             framebufferResized = false;
         }
-
+        GLFWwindow *getGLFWwindow() const { return glfwWindow; }
         void createWindowSurface(VkInstance instance, VkSurfaceKHR *surface);
     private:        
         static void framebufferResizeCallback(GLFWwindow *window, int width, int height);

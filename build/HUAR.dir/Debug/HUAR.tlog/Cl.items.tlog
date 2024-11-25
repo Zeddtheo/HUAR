@@ -6,4 +6,6 @@ C:\MISC\projects\HUAR\src\jSwapchain.cpp;C:\MISC\projects\HUAR\build\HUAR.dir\De
 C:\MISC\projects\HUAR\src\jModel.cpp;C:\MISC\projects\HUAR\build\HUAR.dir\Debug\jModel.obj
 C:\MISC\projects\HUAR\src\jRenderSystem.cpp;C:\MISC\projects\HUAR\build\HUAR.dir\Debug\jRenderSystem.obj
 C:\MISC\projects\HUAR\src\jRenderer.cpp;C:\MISC\projects\HUAR\build\HUAR.dir\Debug\jRenderer.obj
+C:\MISC\projects\HUAR\src\jCamera.cpp;C:\MISC\projects\HUAR\build\HUAR.dir\Debug\jCamera.obj
+C:\MISC\projects\HUAR\src\jInput.cpp;C:\MISC\projects\HUAR\build\HUAR.dir\Debug\jInput.obj
 C:\MISC\projects\HUAR\src\main.cpp;C:\MISC\projects\HUAR\build\HUAR.dir\Debug\main.obj

@@ -25,6 +25,12 @@
     <ClCompile Include="C:\MISC\projects\HUAR\src\jRenderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\MISC\projects\HUAR\src\jCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MISC\projects\HUAR\src\jInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\MISC\projects\HUAR\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
